@@ -388,6 +388,9 @@ function daltonize(image, deficiency, canvas_pass) {
 }
 
 //other one being used
+//This function is mostly from Micheal Deal http:mudcu.be credit to him
+//The majority of the information on this algorithm can be found in the paper
+// "Color display for dichromats" by Francoise Vienot" and "Hans Brettel"
 function daltonize2(image_pass, deficiency, canvas_pass) {
     var protanope = [0.0, 2.02344, -2.52581,
 		     0.0, 1.0, 0.0,
