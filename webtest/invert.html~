@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+ <!--   <script type="text/javascript" src="jquery-1.10.2.js" language="javascript"></script> -->
+
+
+    
+  </head>
+  <body>
+     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script> 
+     <script type="text/javascript" src="jquery.getimagedata.js" language="javascript"></script> 
+    <script type="text/javascript" src="jsinvert.js" language="javascript"></script>
+    <div align="center">
+      <img src="http://www.google.com/images/srpr/logo4w.png" id="test_img" width="550" height="190">
+      
+     <!-- <script>test_script();</script> -->
+
+      <p>canvas</p>
+      <canvas id="testcanvas" width="500" height="500" style="background-color:lightgrey;">
+	Your browser dont support canvas.
+      </canvas>
+      <br>
+      <input id="clickme" type="button" value="clickme" onclick="dosomething('testcanvas','test_img');" />
+      <input id="daltonize" type="button" value="daltonize" onclick="daltonize2('test_img', '2', 'testcanvas');" />
+      <br>
+	<input type="text" id="myinput" value=""/>
+	<input type="button"  value="newnew" onclick="newnew('/home/clayton/Documents/cs461/tint/image004.gif');" />
+	<input type="button"  value="newnew2" onclick="newnew2();" />
+    </div>
+
+  </body>
+</html>

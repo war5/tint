@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="jsinvert.js" language="javascript"></script>
+    
+  </head>
+  <body>
+    <div align="center">
+      <img src="/home/clayton/Documents/cs461/tint/image004.gif" id="test_img" width="500" height="342">
+      
+     <!-- <script>test_script();</script> -->
+
+      <p>canvas</p>
+      <canvas id="testcanvas" width="500" height="500" style="background-color:lightgrey;">
+	Your browser dont support canvas.
+      </canvas>
+      <br>
+      
+      <input id="daltonize1" type="button" value="protanope" onclick="daltonize2('test_img', '1', 'testcanvas');" />
+      <input id="daltonize2" type="button" value="deuteranope" onclick="daltonize2('test_img', '2', 'testcanvas');" />
+      <input id="daltonize3" type="button" value="tritanope" onclick="daltonize2('test_img', '3', 'testcanvas');" />
+      <br>
+
+    </div>
+  </body>
+</html>
